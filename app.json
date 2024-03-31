@@ -4,7 +4,7 @@
     "userInterfaceStyle": "automatic",
     "orientation": "default",
     "web": {
-      "output": "static",
+      "output": "server",
       "bundler": "metro"
     },
     "plugins": [
@@ -16,6 +16,10 @@
       ]
     ],
     "name": "expo-tailwind",
-    "slug": "expo-tailwind"
+    "slug": "expo-tailwind",
+    "experiments": {
+      "typedRoutes": true
+      // "turboModules": true
+    }
   }
 }
